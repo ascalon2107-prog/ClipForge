@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+*.py[cod]
+
+# Runtime output
+backend/data/
+backend/output/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.local
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --ink: #f5f7ff;
+  --muted: #aab1c7;
+  --panel: #171a2b;
+  --panel-soft: #20243a;
+  --line: rgba(255,255,255,.12);
+  --accent: #8b5cf6;
+  --accent-2: #22d3ee;
+  --bg: #0c0e18;
+}
+
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top right, #24204b 0, var(--bg) 42%);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+}
+button, input { font: inherit; }
+button { cursor: pointer; }
